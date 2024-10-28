@@ -26,11 +26,13 @@ public class Ejercicio01 {
         
         System.out.println("Dime una cadena:");
         cadena=entrada.nextLine();
+        
+        
         System.out.println("Dime una caracter:");
         aux=entrada.nextLine();
         caracter=aux.charAt(0); //Convertimos una cadena de una letra a un char
         
-        
+        //caracter=entrada.nextLine().charAt(0); //opcional sin desglosar
         
         //Parte1
         for (int i = 0; i < cadena.length(); i++) {
@@ -38,11 +40,8 @@ public class Ejercicio01 {
                 apariciones++;
             }
         }
-        
         System.out.println("El caracter '"+caracter+"' aparece "+apariciones+" veces.");
-        
        
-        
         //Parte2
         int numEspacios=0;
         for (int i = 0; i < cadena.length(); i++) {
