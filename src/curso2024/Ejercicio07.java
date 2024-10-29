@@ -1,15 +1,14 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package curso2024;
 
 import java.util.Scanner;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  *
- * @author jacuela
+ * @author juanantoniocuelloalarcon
  */
 public class Ejercicio07 {
 
@@ -54,10 +53,6 @@ public class Ejercicio07 {
         else{
             System.out.println("\033[31m Son DISTINTAS \033[30m");
         }
-        
-        
-        
-        
         
     }
     
