@@ -20,6 +20,7 @@ public class Ejercicio09 {
         Scanner teclado=new Scanner(System.in);
         String frase1;
         String frase2="";  //la inicializo a la cadena vacia
+        char caracter,caracterMayus;
         
         
         System.out.println("Ejercicio 9 - o por 0 e i por 1");
@@ -35,7 +36,9 @@ public class Ejercicio09 {
                 frase2=frase2+'1';
             }
             else{
-                frase2=frase2+frase1.charAt(i);
+                caracter=frase1.charAt(i);
+                caracterMayus=Character.toUpperCase(caracter);
+                frase2=frase2+caracterMayus;
             }
         }
         
