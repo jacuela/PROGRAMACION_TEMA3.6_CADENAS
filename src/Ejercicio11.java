@@ -22,7 +22,6 @@ public class Ejercicio11 {
         String frase="me gusta el jamon";
       
         String resultado="";
-        String iniciales="";
         
         
         //Tendríamos que depurar espacios iniciales
@@ -56,24 +55,7 @@ public class Ejercicio11 {
         
         
         
-        //Saco las iniciales de la frase en minusculas
-        
-        //Meto el primer caracter
-        iniciales=iniciales+frase.charAt(0);
-        
-        for (int i = 1; i < frase.length(); i++) {
-            if (frase.charAt(i-1)==' '){
-                //El caracter anterior es un espacio
-                //añado el caracter actual
-                iniciales=iniciales+frase.charAt(i);
-            }
-            
-        }
-        
-        System.out.println(iniciales);
-        
-        
-        
+       
         
         
         
